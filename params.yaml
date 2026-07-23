@@ -1,6 +1,6 @@
 Data_Preparation:
   test_size: 0.3
-  random_state: 42
+  random_state: 43
 
 Train:
   Random_Forest:
@@ -15,7 +15,7 @@ Train:
     n_jobs: -1
   
   LightGBM:
-    n_estimators: 154
+    n_estimators: 155
     max_depth: 27
     learning_rate: 0.22234435854395157
     subsample: 0.7592213724048168

@@ -174,9 +174,7 @@ if __name__ == "__main__":
     data_paths = [save_train_trans_path,save_test_trans_path]
     filename_list = [train_trans_filename, test_trans_filename]
     for filename , path, data in zip(filename_list, data_paths, data_subsets):
-        save_data(data=data, save_path=path)
-        logger.info(f"{filename.replace(".csv","")} data saved to location")
-        
+        save_data(data=data, save_path=path)        
     # save the preprocessor to location
     # transformer name
     transformer_filename = "preprocessor.joblib"
